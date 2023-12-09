@@ -1,0 +1,22 @@
+{
+    "name": "uims/searchengine",
+    "minimum-stability": "dev",
+    "description": "Search Engine",
+    "type": "library",
+    "keywords": ["searchengine"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samarth",
+            "email": "himanshu.aman@samarth.ac.in"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "uims\\searchengine\\": "src"
+        }
+    }
+}
